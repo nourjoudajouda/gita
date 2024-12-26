@@ -115,7 +115,7 @@ a {
     font-size: 20px;
   }
   .section-padding {
-    padding: 60px 0;
+    padding-top: 350px;
   }
 }
 /* End Components */
@@ -308,6 +308,9 @@ a {
     justify-content: start !important;
     align-items: start !important;
     margin-right: 0;
+    background: linear-gradient(#32988ACC, #32988A66);
+        min-height: 300px;
+    text-align: right;
   }
   .offcanvas-backdrop {
     background-color: var(--white-color) !important;
@@ -397,16 +400,16 @@ a {
 }
 @media (max-width: 991px) {
   .home-section {
-    height: auto;
+    height: calc(120vh - 80px);
   }
   .home-section .home-text {
     position: static;
     width: 100%;
-    padding-top: 120px;
+    padding-top: 35px;
   }
   .home-section .home-text h1 {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 30px;
   }
   .home-section .home-text h2 {
     font-size: 25px;
@@ -735,7 +738,7 @@ footer {
   position: absolute;
   top: 450px;
   width: 100%;
-  z-index: -1;
+  z-index: -0.1;
   min-height: 400px;
 }
 footer h4 {

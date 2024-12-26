@@ -1,20 +1,46 @@
 @media (max-width:767px) {
 
     /* smartphones and tablets -- min = 0 */
-   .search-hotel{
-        margin: 5px;
-        width: 98%;
+    .first-navbar {
+        display: none;
     }
-
-    .btns-popular   button{
-        margin-top: 10px;
+    .navbar .navbar-container {
+        text-align: end;
     }
-    .popular-hotels .card {
+    .dropdown-home{
+        display: none;
+    }
+    .popular-hotels {
+        position: relative;
+        top: -385px;
         min-height: 500px;
     }
-    .breadcrumb {
-        font-size: 16px;
-        font-weight: bold;
+    .home-section .input-group{
+        position: absolute;
+        top: 20px;
+        width: 70%;
+    }
+    .navbar .navbar-toggler {
+        padding: 9px;
+    }
+    .input-group input {
+        background-color: #fff;
+    }
+    .input-group span {
+        background-color: #fff;
+    }
+    .content-activities {
+        text-align: center;
+        padding: 65px;
+    }
+    .bg-linear-gradient-content {
+        padding-bottom: 217px;
+    }
+    .d-media{
+        display: none;
+    }
+    .about-us button{
+        width: 100%;
     }
 }
 
