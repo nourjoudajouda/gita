@@ -423,12 +423,12 @@
     }
 
     .bg-linear-gradient {
-        background: linear-gradient(#32988A66, #32988ACC);
+        background-color: #008270;
         min-height: calc(115vh - 80px);
     }
 
     .section-padding {
-        padding-top: 600px;
+        padding-top: 100px;
     }
 
     footer {
@@ -460,8 +460,9 @@
         }
 
         .section-padding {
-            padding-top: 900px;
+            padding-top: 100px;
         }
+   
     }
 
     .cover-page-contact {
@@ -489,7 +490,8 @@
     .fa-phone-volume {
         font-size: 65px;
     }
-        .navbar .navbar-nav .nav-link {
+
+    .navbar .navbar-nav .nav-link {
         color: #000;
         font-size: 20px;
         font-weight: 700;
@@ -498,4 +500,8 @@
     .navbar .offcanvas a:hover,
     .navbar .offcanvas a.active {
         color: #000;
+    }
+    .bg-event-details{
+        background-color: #008270;
+        min-height: 400px;
     }

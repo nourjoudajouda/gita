@@ -4,48 +4,71 @@
     .first-navbar {
         display: none;
     }
+
     .navbar .navbar-container {
         text-align: end;
     }
-    .dropdown-home{
+
+    .dropdown-home {
         display: none;
     }
+
     .popular-hotels {
         position: relative;
         top: -385px;
         min-height: 500px;
     }
-    .home-section .input-group{
+
+    .home-section .input-group {
         position: absolute;
         top: 20px;
         width: 70%;
     }
+
     .navbar .navbar-toggler {
         padding: 9px;
     }
+
     .input-group input {
         background-color: #fff;
     }
+
     .input-group span {
         background-color: #fff;
     }
+
     .content-activities {
         text-align: center;
         padding: 65px;
     }
+
     .bg-linear-gradient-content {
         padding-bottom: 217px;
     }
-    .d-media{
+
+    .d-media {
         display: none;
     }
-    .about-us button{
+
+    .about-us button {
         width: 100%;
     }
+
     .bg-linear-gradient {
         background: linear-gradient(#32988A66, #32988A66, rgba(157, 209, 202, 0.8), #fff);
         min-height: calc(290vh - 80px);
     }
+
+    .cover-page-contact-details {
+        width: 100%;
+        color: #fff;
+        min-height: 200px;
+        padding: 30px 10px;
+        border: 1px solid #bababa;
+    }
+         .card-button {
+         width: 100% !important;
+     }
 }
 
 @media(min-width:768px) and (max-width:991px) {
