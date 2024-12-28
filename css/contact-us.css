@@ -5,21 +5,7 @@
         background-position: unset;
         background-repeat: unset;
         padding-bottom: unset;
-    }
-
-    .home-section .nav-tabs .nav-item .nav-link.active {
-
-        border: unset;
-        border-radius: unset;
-        height: 100%;
-    }
-
-    .home-section .nav-tabs .nav-item .nav-link:hover,
-    .home-section .nav-tabs .nav-item .nav-link:focus {
-
-
-        border-radius: unset;
-        height: 100%;
+        position: relative;
     }
 
     .hotel-card {
@@ -323,6 +309,7 @@
         /* margin-bottom: 0; */
         outline: 0;
         overflow: hidden;
+        padding-top: 10px;
 
     }
 
@@ -434,3 +421,71 @@
         color: #242424;
 
     }
+
+    .bg-linear-gradient {
+        background: linear-gradient(#32988A66, #32988ACC);
+        min-height: calc(115vh - 80px);
+    }
+
+    .section-padding {
+        padding-top: 600px;
+    }
+
+     footer {
+     background-color: rgb(111 155 104);
+     color: #F7F7F7;
+     position: relative;
+     bottom: 0;
+     top: 0;
+     width: 100%;
+     z-index: -1;
+     min-height: 400px;
+     padding-top: 100px;
+ }
+
+ .bg-linear-gradient {
+     background: linear-gradient(#32988A66, #32988A66, rgba(157, 209, 202, 0.8), #fff);
+     min-height: calc(209vh - 80px);
+ }
+
+    @media (max-width: 768px) {
+        .bg-linear-gradient {
+            background: linear-gradient(#32988A66,#32988A66, #32988ACC);
+            height: calc(290vh - 80px);
+            padding-bottom: 36px;
+        }
+          footer {
+                padding-top: 100px;
+            }
+
+        .bg-linear-gradient {
+            min-height: calc(60vh - 80px);
+        }
+
+        .section-padding {
+            padding-top: 900px;
+        }
+    }
+
+    .cover-page-contact{
+        width: 100%;
+        background-color: #008270;
+        color: #fff;
+        min-height: 150px;
+        padding-top: 35px;
+    }
+    .cover-page-contact-details{
+        width: 100%;
+        color: #fff;
+        min-height: 200px;
+        padding: 50px 70px;
+        border:1px solid #e1e1e1;
+    }
+    .form-contact input{
+        border:1px solid #e1e1e1;
+    }
+    .fa-location-dot,.fa-envelope,.fa-phone-volume{
+        font-size: 65px;
+    }
+
+

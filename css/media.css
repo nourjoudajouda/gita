@@ -42,6 +42,10 @@
     .about-us button{
         width: 100%;
     }
+    .bg-linear-gradient {
+        background: linear-gradient(#32988A66, #32988A66, rgba(157, 209, 202, 0.8), #fff);
+        min-height: calc(290vh - 80px);
+    }
 }
 
 @media(min-width:768px) and (max-width:991px) {

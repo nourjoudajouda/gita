@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact US </title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contact-us.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <style>
+     
+    </style>
+  </head>
+
+  <body>
+    <!-- Start Preloader HTML -->
+    <div id="preloader">
+      <div class="loading-container">
+        <img src="./images/logo.png" alt="Logo" />
+      </div>
+    </div>
+    <!-- End Preloader HTML -->
+
+    <!-- Start Home Section -->
+    <section class="home-section">
+      <div class="bg-linear-gradient">
+
+        <!--Start First Navbar -->
+        <nav id="navbar" class="first-navbar navbar-expand-lg">
+          <div class="container h-100">
+            <div
+              class="navbar-container d-flex justify-content-between align-items-center">
+              <div class="static-nav">
+                <a id="navbar-brand" class="navbar-brand" href="#">
+                  <img src="./images/logo.png" alt="Logo" loading="lazy" />
+                </a>
+                <div class="header-icons">
+                  <a
+                    href="#"
+                    target="_blank"
+                    title="واتساب">
+                    <img src="./images/icons_nav/whatsapp.png" alt="whatsapp">
+                  </a>
+                  <a href="#" class="mx-3" title="تسجيل الدخول">
+                    <img src="./images/icons_nav/profile.png" alt="Profile">
+                  </a>
+                  <a href="#"><img src="./images/icons_nav/location.png"
+                      alt="location"></a>
+                  <a href="#" class="ms-3"><img
+                      src="./images/icons_nav/Group.png" alt="Group"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End First Navbar -->
+        <hr>
+        <!--Start second Navbar -->
+        <nav id="navbar" class="navbar navbar-expand-lg">
+          <div class="container h-100">
+            <div
+              class="navbar-container ">
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="offcanvas offcanvas-top flex-column flex-lg-row justify-content-between align-items-center"
+                id="offcanvasNavbar">
+                <button
+                  class="btn-close d-lg-none ms-auto me-3"
+                  type="button"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+                <ul class="navbar-nav mb-3 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html">عن قولدن
+                      ايفنت</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/mn-nhn.html">أهم
+                      الفعاليات</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"
+                      href="./pages/alshrwt-walahkam.html">التأشيرات</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contact-us.html">تواصل
+                      معنا</a>
+                  </li>
+
+                </ul>
+                <div class="header-icons">
+                  <button class="btn btn-main">أضف فعاليات</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End second Navbar -->
+
+        <hr>
+        <div class="container">
+          <div class="cover-page-contact text-center mt-5  rounded-4">
+            <h2 class="fw-bold">تواصل معنا</h2>
+            <h3>تواصل معنا. نحن هنا لمساعدتك.</h3>
+          </div>
+          <div class="row my-5">
+            <div class="col-lg-6 col-12">
+              <form class="form-contact ">
+                <div class="mb-3">
+                  <label for="name" class="form-label fw-bold">الاسم
+                    بالكامل</label>
+                  <input type="text" class="form-control bg-transparent p-3"
+                    id="name"
+                    placeholder="الاسم بالكامل" required>
+                </div>
+                <div class="mb-3">
+                  <label for="name" class="form-label fw-bold">البريد
+                    الإلكتروني</label>
+                  <input type="text" class="form-control bg-transparent p-3"
+                    id="name"
+                    placeholder="البريد الإلكتروني" required>
+                </div>
+                <div class="mb-3">
+                  <label for="name" class="form-label fw-bold">رقم
+                    الجوال</label>
+                  <input type="text" class="form-control bg-transparent p-3"
+                    id="name"
+                    placeholder="رقم الجوال" required>
+                </div>
+                <div class="mb-3">
+                  <label for="name" class="form-label fw-bold">ملاحظاتك</label>
+                  <textarea type="text" rows="3"
+                    class="form-control bg-transparent p-3" id="name"
+                    placeholder="ملاحظاتك" required></textarea>
+                </div>
+                <button type="submit"
+                  class="btn btn-main btn-sm xy-popularsearch rounded-5 my-4">إرسال</button>
+              </form>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="map-contact ">
+                <iframe class="map rounded-4"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1855.4004562649789!2d39.17290115826746!3d21.554638596429015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3d1d1c501f807%3A0x1dcf06a8b4c902eb!2sBrand+Details!5e0!3m2!1sen!2ssa!4v1538652890926"
+                  width="100%" height="500" frameborder="0" allowfullscreen
+                  style></iframe>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-transparent cover-page-contact-details mt-5  rounded-4">
+            <div class="row">
+              <div class="col-lg-4 col-12 mb-4">
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-3 text-center">
+                      <i class="fa-solid fa-location-dot text-accent"></i>
+                    </div>
+                    <div class="col-9">
+                      <h3 class="text-black"> الموقع</h3>
+                      <h6 class="text-secondary"> هذا النص مكان لنص يمكن أن
+                        يستبدل</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-12 mb-4">
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-3 text-center">
+                      <i class="fa-solid fa-envelope text-accent"></i>
+                    </div>
+                    <div class="col-9">
+                      <h3 class="text-black"> البريد الإلكتروني</h3>
+                      <h6 class="text-secondary"> gitaevent@gmail.com</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-12 mb-4">
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-3 text-center">
+                      <i class="fa-solid fa-phone-volume text-accent"></i>
+                    </div>
+                    <div class="col-9">
+                      <h3 class="text-black">رقم التواصل</h3>
+                      <h6 class="text-secondary">+970594033754</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- End Home Section -->
+
+    <!-- Start Footer Section -->
+    <footer class>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 mb-2 text-center">
+            <img
+              class="img-fluid"
+              src="images/logo.png"
+              alt
+              width="150px"
+              loading="lazy" />
+
+          </div>
+          <div class="footer-social mb-2 mb-md-0">
+            <ul class="list-unstyled d-flex justify-content-center mb-0">
+              <li>
+                <a href="https://www.facebook.com/gita2sa">
+                  <i class="fa-brands fa-tiktok"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/gita2sa"><i
+                    class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/gita2sa/"><i
+                    class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="https://x.com/gita2sa"><i
+                    class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://www.snapchat.com/add/gita2sa/"><i
+                    class="fab fa-snapchat"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Start Copy Right -->
+        <div class="copyright py-3">
+          <div
+            class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <p class="mb-2 mb-md-0 text-center">
+              جميع الحقوق محفوظة لشركـــة الذهـبــية العــالـمـيـة للـسفـر
+              والسـيـاحة
+            </p>
+
+          </div>
+        </div>
+        <!-- End Copy Right -->
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <div class="whatsapp-float d-flex">
+      <a href="https://wa.me/+966920029449" target="_blank">
+        <img src="images/whatsapp.png" alt="WhatsApp" />
+      </a>
+    </div>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+
+    <script>
+      // image gallery
+// init the state from the input
+$(".amenity").each(function () {
+  if ($(this).find('input[type="checkbox"]').first().attr("checked")) {
+    $(this).addClass('amenities-checkbox-checked');
+  }
+  else {
+    $(this).removeClass('amenities-checkbox-checked');
+  }
+});
+
+// sync the state to the input
+$(".amenity").on("click", function (e) {
+  $(this).toggleClass('amenities-checkbox-checked');
+  var $checkbox = $(this).find('input[type="checkbox"]');
+  $checkbox.prop("checked",!$checkbox.prop("checked"))
+
+  e.preventDefault();
+});
+    </script>
+  </body>
+</html>

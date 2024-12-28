@@ -334,12 +334,12 @@ a {
   padding-bottom: 50px;
 }
 .bg-linear-gradient {
-  background: linear-gradient(#32988ACC, #32988A66);
+  background: linear-gradient(#32988A66, #32988ACC);
   height: calc(170vh - 80px);
   padding-bottom: 50px;
 }
 .bg-linear-gradient-content {
-  background: linear-gradient(#32988ACC, #32988A66);
+  background: linear-gradient(#32988A66, #32988ACC);
   min-height: calc(140vh - 80px);
   padding-bottom: 168px;
 }
@@ -1365,3 +1365,17 @@ ul {
   position: relative;
 }
 /* End Style New Landing Page */
+
+/* Start Event Details */
+.fa-share-nodes{
+  color: var(--main-color);
+  background-color: #fff;
+  padding: 7px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.btns-popular .btn{
+  border-radius: 25px;
+}
+/* End Event Details */
