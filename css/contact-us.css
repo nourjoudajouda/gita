@@ -423,7 +423,7 @@
     }
 
     .bg-linear-gradient {
-        background: linear-gradient(#32988A66, #32988ACC);
+        background: unset;
         min-height: calc(115vh - 80px);
     }
 
@@ -431,32 +431,32 @@
         padding-top: 600px;
     }
 
-     footer {
-     background-color: rgb(111 155 104);
-     color: #F7F7F7;
-     position: relative;
-     bottom: 0;
-     top: 0;
-     width: 100%;
-     z-index: -1;
-     min-height: 300px;
-     padding-top: 100px;
- }
+    footer {
+        background-color: #BE910C99;
+        color: #F7F7F7;
+        position: relative;
+        bottom: 0;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+        min-height: 300px;
+        padding-top: 100px;
+    }
 
- .bg-linear-gradient {
-     background: linear-gradient(#32988A66, #32988A66, rgba(157, 209, 202, 0.8), #fff);
-     min-height: calc(209vh - 80px);
- }
+    .bg-linear-gradient {
+        background: unset;
+    }
 
     @media (max-width: 768px) {
         .bg-linear-gradient {
-            background: linear-gradient(#32988A66,#32988A66, #32988ACC);
+            background: unset;
             height: calc(290vh - 80px);
             padding-bottom: 36px;
         }
-          footer {
-                padding-top: 100px;
-            }
+
+        footer {
+            padding-top: 100px;
+        }
 
         .bg-linear-gradient {
             min-height: calc(60vh - 80px);
@@ -467,25 +467,37 @@
         }
     }
 
-    .cover-page-contact{
+    .cover-page-contact {
         width: 100%;
         background-color: #008270;
         color: #fff;
         min-height: 150px;
         padding-top: 35px;
     }
-    .cover-page-contact-details{
+
+    .cover-page-contact-details {
         width: 100%;
         color: #fff;
         min-height: 200px;
         padding: 50px 70px;
-        border:1px solid #bababa;
+        border: 1px solid #bababa;
     }
-    .form-contact input{
-        border:1px solid #e1e1e1;
+
+    .form-contact input {
+        border: 1px solid #e1e1e1;
     }
-    .fa-location-dot,.fa-envelope,.fa-phone-volume{
+
+    .fa-location-dot,
+    .fa-envelope,
+    .fa-phone-volume {
         font-size: 65px;
     }
-
-
+    .navbar .navbar-nav .nav-link {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navbar .offcanvas a:hover,
+.navbar .offcanvas a.active {
+    color: #000;
+}
