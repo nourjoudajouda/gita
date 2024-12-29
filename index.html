@@ -239,6 +239,8 @@
                         <a
                           class="btn btn-main btn-sm xy-popularsearch"
                           href="#"
+                          data-bs-toggle="modal"
+                          data-bs-target="#bookingInquiryModal"
                           tabindex="-1"> احجز معنا <img
                             src="images/activiies/Group.png"></a>
                       </p>
@@ -1126,8 +1128,9 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="bookingInquiryModalLabel">
-              استعلام حجز
+            <h5 class="modal-title text-accent fw-bold"
+              id="bookingInquiryModalLabel">
+              أضف فعاليتك
             </h5>
             <button
               type="button"
@@ -1141,35 +1144,105 @@
               action="https://gita.sa/pages/inquiry"
               method="GET">
               <div class="mb-3">
-                <label for="pnr" class="form-label">رقم الحجز</label>
+                <label for="pnr" class="form-label fw-bold">مسمى
+                  الفعالية</label>
                 <input
                   type="text"
+                  placeholder="أدخل مسمى فعاليتك هان"
                   class="form-control"
                   id="pnr"
                   name="pnr"
                   required />
               </div>
               <div class="mb-3">
-                <label for="lastName" class="form-label">الاسم الاخير</label>
-                <input
+                <label for="lastName" class="form-label fw-bold">موقع
+                  الفعالية</label>
+                <div class="bg-transparent input-group mb-3">
+                  <input type="text" class="form-control"
+                    placeholder="اختر موقع الفعالية هنا" aria-label="Username"
+                    aria-describedby="basic-addon1">
+                  <span class="input-group-text"><i
+                      class="fa-solid fa-location-dot heading-activities"></i></span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="mb-3">
+                    <label for="lastName" class="form-label fw-bold">
+                      تاريخ البداية</label>
+                    <div class="bg-transparent input-group mb-3">
+                      <input type="text" class="form-control"
+                        placeholder="25-11-2024" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                      <span class="input-group-text"><i class="fa-regular fa-clock heading-activities"></i></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="mb-3">
+                    <label for="lastName" class="form-label fw-bold">
+                      تاريخ النهاية</label>
+                    <div class="bg-transparent input-group mb-3">
+                      <input type="text" class="form-control"
+                        placeholder="25-11-2024" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                        
+                      <span class="input-group-text"><i class="fa-regular fa-clock heading-activities"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="mb-3">
+                    <label for="lastName" class="form-label fw-bold">
+                      وقت البداية</label>
+                    <div class="bg-transparent input-group mb-3">
+                      <input type="text" class="form-control"
+                        placeholder="03:00 ص" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                      <span class="input-group-text"><i class="fa-regular fa-clock heading-activities"></i></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="mb-3">
+                    <label for="lastName" class="form-label fw-bold">
+                      وقت النهاية</label>
+                    <div class="bg-transparent input-group mb-3">
+                      <input type="text" class="form-control"
+                        placeholder="03:00 ص" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                        
+                      <span class="input-group-text"><i class="fa-regular fa-clock heading-activities"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="pnr" class="form-label fw-bold">مسمى
+                  الفعالية</label>
+                <textarea
                   type="text"
                   class="form-control"
-                  id="lastName"
-                  name="lastName"
+                  rows="3"
+                  placeholder="اكتب وصف مختصر عن الفعالية هنا"
                   required />
+                </textarea>
               </div>
             </form>
           </div>
           <div class="modal-footer">
+            <button form="inq-form" type="submit" class="btn btn-main btn-sm">
+              أضف الآن
+            </button>
             <button
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal">
               الغاء
             </button>
-            <button form="inq-form" type="submit" class="btn btn-main btn-sm">
-              استعلام
-            </button>
+            
           </div>
         </div>
       </div>
