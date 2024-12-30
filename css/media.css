@@ -66,9 +66,14 @@
         padding: 30px 10px;
         border: 1px solid #bababa;
     }
-         .card-button {
-         width: 100% !important;
-     }
+
+    .card-button {
+        width: 100% !important;
+    }
+
+    .modal-footer button {
+        width: 47%;
+    }
 }
 
 @media(min-width:768px) and (max-width:991px) {
